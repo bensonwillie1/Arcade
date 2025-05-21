@@ -19,8 +19,8 @@ void setup() {
 }
 
 void loop() {
- // if (display.displayAnimate()) {
+  if (display.displayAnimate()) {
     // When scroll is done, start it again
-  //  display.displayScroll("GAME OVER", PA_RIGHT, PA_SCROLL_RIGHT, 100);
- // }
+    display.displayScroll("GAME OVER", PA_RIGHT, PA_SCROLL_RIGHT, 100);
+  }
 }
