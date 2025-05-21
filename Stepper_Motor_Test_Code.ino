@@ -10,7 +10,6 @@
 void setup() {
   pinMode(DIR_PIN, OUTPUT);
   pinMode(STEP_PIN, OUTPUT);
-  pinMode(LED_PIN, OUTPUT);
 
   // Start by spinning forward
   digitalWrite(DIR_PIN, HIGH);
